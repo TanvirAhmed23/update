@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="browse.php">Browse</a></li>
+            <li><a href="upload.php">Upload</a></li>
+            <li class="active"><a href="#">About</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container">
+        <h1>About Our Team</h1>
+        <div class="team-members">
+          <div class="team-member">
+            <img src="images/received_747150722543653.jpeg" alt="Leader">
+            <h3>Team Leader</h3>
+            <p>Name</p>
+            <p>Role</p>
+          </div>
+          <div class="team-member">
+            <img src="assistant1.jpg" alt="Assistant Developer 1">
+            <h3>Assistant Developer</h3>
+            <p>Name</p>
+            <p>Role</p>
+          </div>
+          
+          <div class="team-member">
+            <img src="pr2.jpg" alt="Public Relation 2">
+            <h3>Public Relation</h3>
+            <p>Name</p>
+            <p>Role</p>
+          </div>
+        </div>
+      </div>
+</body>
+<footer>
+    
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.2927268774956!2d91.10019587453291!3d22.791614724909063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3754af712aaac0b7%3A0x4bab3d112f6b6f3f!2sNoakhali%20Science%20and%20Technology%20University!5e0!3m2!1sen!2sbd!4v1685567695518!5m2!1sen!2sbd" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="footer-content">
+  <ul class="footer-social-icons">
+    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+  </ul>
+
+  <div class="footer-info">
+    <span>Contact us: example@example.com</span>
+    <br>
+    <span>Phone: 01782535335</span>
+  </div>
+</div>
+<div class="footer-credits">
+  &copy; 2023 Thesis Archive. All rights reserved.
+</div>
+<!-- java script -->
+<script src="script.js"></script>
+</footer>
+
+<script>(g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
+  ({ key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "beta" });</script>
+</html>
